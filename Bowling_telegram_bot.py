@@ -6,7 +6,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, \
     CallbackQueryHandler, InlineQueryHandler
 import logging
 
-updater = Updater(token='Add yor telegram token here')
+updater = Updater(token='Add your telegram token here')
 
 dispatcher = updater.dispatcher
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
